@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code</title>
+</head>
+<body style="background-color: #212121;">
+    <h1>Lorem.</h1>
+    
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = 'main'
+    div.id = Math.round(Math.random() * 10 + 1)
+    div.setAttribute("title", "Generated title")
+    div.style.backgroundColor = "pink"
+    div.style.color = "#121212"
+    div.style.padding = "10px"
+    div.style.borderRadius = "10px"
+
+    const addNode = document.createTextNode("Fenil")
+    // console.log(addNode);
+    div.appendChild(addNode)
+
+    document.body.appendChild(div)
+    
+</script>
+</html>
