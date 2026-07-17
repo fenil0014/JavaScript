@@ -1,0 +1,28 @@
+/* body {
+  background: rgb(66, 66, 66);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 44px;
+  text-align: center;
+  color: aliceblue;
+}
+.description {
+  transition: 0.9s ease-in-out;
+} */
+
+ .button {
+            width: 250px;
+            height: 100px;
+            justify-content: center;
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        #grey { background-color: grey; }
+        #pink { background-color: pink; }
+        #blue { background-color: blue; }
+        #yellow { background-color: yellow; }
