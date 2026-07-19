@@ -48,7 +48,7 @@ function validateGuesses(guess) {
 
 function cheakGuess(guess) {
     if (guess === randomNumber) {
-        displayMessage(`You guessed it right`)
+        displayMessage(`\"Congratulations\" Number:  ${randomNumber}`)
         endGame();
     }else if(guess < randomNumber){
         displayMessage(`Number is Tooo Low`)
@@ -72,7 +72,7 @@ function endGame() {
     userInput.value = '';
     userInput.setAttribute('disabled', '');
     p.classList.add('button');
-    p.innerHTML = `<h2 id="newGame">Start New Game</h2>`;
+    // p.innerHTML = `<h2 id="newGame"></h2>`;
     result.appendChild(p);
     playGame = false;
     newGame();
@@ -87,7 +87,7 @@ function newGame() {
         guessSlot.innerHTML = '';
         remaining.innerHTML = `${11 - numOfGuess}`;
         userInput.removeAttribute('disabled')
-        result.removeChild
+        result.removeChild(p)
 
     })
 }
