@@ -1,0 +1,19 @@
+body {
+    background: #212121;
+    color: aliceblue;
+    display:flex;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    cursor: pointer;
+    padding: 25px 35px;
+    border-radius: 10px;
+    border: #444444;
+    background-color: #212121;
+    color: aliceblue;
+    margin: auto;
+}

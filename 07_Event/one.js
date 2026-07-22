@@ -46,3 +46,12 @@ document.getElementById('python').addEventListener('click', function (e) {
         // second = clicked py
         // ( ul -> li )
 // }
+
+
+document.querySelector("ul")
+.addEventListener("click", function(e){
+
+    e.target.remove();
+
+
+});
